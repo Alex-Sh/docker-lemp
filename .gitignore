@@ -1,0 +1,4 @@
+.idea
+/app/
+/docker/logs/
+/docker/mysql/
