@@ -12,7 +12,7 @@ services:
             MYSQL_USER: app
             MYSQL_PASSWORD: app
         volumes:
-            - ./docker/mysql:/var/lib/mysql
+            - ./docker/mysql/data:/var/lib/mysql
         networks:
             - db
     php:
