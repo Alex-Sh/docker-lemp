@@ -41,6 +41,15 @@ services:
             - ./app:/var/www/app:cached
         networks:
             - web
+    node:
+        image: node:13-alpine
+        container_name: node
+        ports:
+            - 8080:8080
+        volumes:
+            - ./app:/app
+        working_dir: /app
+        tty: true
 networks:
     db:
     web:

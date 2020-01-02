@@ -5,6 +5,8 @@ Simple Docker LEMP stack for development.
 - MySQL 8
 - Symfony 5 ready
 
+Node 13
+
 ## Installation
 
 > You need to make sure you have Docker properly setup in your environment. Check official documentation for [Docker](https://docs.docker.com/) and [Docker Compose](https://docs.docker.com/compose/).
